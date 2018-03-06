@@ -1,10 +1,16 @@
 {
   "extends": "../tsconfig.json",
   "compilerOptions": {
-    "outDir": "../out-tsc/app",
-    "baseUrl": "./",
-    "module": "es2015",
-    "types": []
+    "lib": [ "es6", "dom" ],
+    "mapRoot": "./",
+    "module": "es6",
+    "baseUrl": ".",
+    "paths": {
+      "@abp/*": [ "../node_modules/abp-electron-ng2-module/src/*" ],
+      "@app/*": [ "./app/*" ],
+      "@shared/*": [ "./shared/*" ],
+      "@node_modules/*": [ "../node_modules/*" ]
+    }
   },
   "exclude": [
     "test.ts",

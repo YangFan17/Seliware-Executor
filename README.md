@@ -1,27 +1,44 @@
-# AngElectron
+# ASP.NET Boilerplate Electron App
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.7.1.
+I made this beauty, because i just want it. :) 
 
-## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## Getting Started
 
-## Code scaffolding
+[Electron](https://electronjs.org/) is kind of newbie development platform, it's base on [WebPack](https://webpack.js.org) and [Chromium](https://www.chromium.org), and our most important ingridient is [ASP.NET Boilerplate](https://aspnetboilerplate.com/), i admire this awesome project <3
+This project has just simple developments and features. 
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+### Build the project
 
-## Build
+After clone this project on your workspace simply you need to run 'yarn', npm has some problems and yarn make it right everything. Strongly recommend using it
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
+```
+yarn
+```
 
-## Running unit tests
+after
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+```
+npm run electron
+```
 
-## Running end-to-end tests
+And it's done.
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+## Built With
 
-## Further help
+* [ASP.NET Boilerplate](https://aspnetboilerplate.com/) 
+* [Electron](https://electronjs.org/)
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+## Contributing
+
+Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
+
+## Authors
+
+* **Ömer Y. Başavul** - *Initial work* - [omerbasavul](https://github.com/omerbasavul)
+
+See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/aspnetboilerplate/aspnetboilerplate/blob/dev/LICENSE) file for details

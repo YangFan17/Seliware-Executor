@@ -1,14 +1,14 @@
-import { AppPage } from './app.po';
+import { CosmoTemplatePage } from './app.po';
 
-describe('ang-electron App', () => {
-  let page: AppPage;
+describe('Cosmo App', function() {
+  let page: CosmoTemplatePage;
 
   beforeEach(() => {
-    page = new AppPage();
+    page = new CosmoTemplatePage();
   });
 
-  it('should display welcome message', () => {
+  it('should display message saying app works', () => {
     page.navigateTo();
-    expect(page.getParagraphText()).toEqual('Welcome to app!');
+    expect(page.getParagraphText()).toEqual('app works!');
   });
 });
